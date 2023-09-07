@@ -1,4 +1,4 @@
-vim.opt.background = "light"
+vim.opt.background = "dark"
 
 return {
   { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
@@ -7,7 +7,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin-latte",
+      colorscheme = "catppuccin-mocha",
     },
   },
 }
